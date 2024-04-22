@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  background-size: contain;
+  background-color: black;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.google-signin-button {
+  display: inline-block;
+  background-color: #516381;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-signin-button:hover {
+  background-color: #6094e8;
+}
+
+.google-signin-button:active {
+  background-color: #6d8ac8;
+}
+
+.google-signin-button:focus {
+  outline: none;
+}
+
+.google-signin-button img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+/* .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
